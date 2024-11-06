@@ -1,0 +1,266 @@
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.bg-img {
+    background: linear-gradient(#5b595975, #76757578), url(/UNWIND/img/bg_1.jpg)center/cover;
+    height: 100vh;
+}
+
+#all {
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    padding: 0 350px 0 0;
+}
+
+.logo h1 {
+    font: 600 30px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.logo h2 {
+    font: 600 12px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+}
+
+.navbar a {
+    font: 700 13px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.center {
+    text-align: center;
+    padding: 200px;
+}
+
+.center h1 {
+    font: 700 13px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.center h2 {
+    font: 400 80px arial;
+    font-family: "Old Standard TT", serif;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 button {
+    padding: 16px 24px;
+    border: 1px solid #c5a880;
+    background-color: #c5a880;
+    font: 600 12px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn2 button {
+    padding: 16px 24px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font: 600 12px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn2 button:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.container1 {
+    width: 1600px;
+    margin: auto;
+    position: relative;
+}
+
+#all-box {
+    position: absolute;
+    display: flex;
+    left: 160px;
+    bottom: -60px;
+}
+
+.box1 {
+    background-color: #212529;
+    padding: 40px 70px;
+}
+
+.box1 h1 {
+    font: 600 12px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.box1 h2 {
+    font: 600 12px arial;
+    font-family: "Nunito", sans-serif;
+    color: #6c757d;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.box2 {
+    background-color: #c5a880;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.box2 h1 {
+    font: 800 14px arial;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media(min-width:300px) and (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+    #all {
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        margin-top: -10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .center {
+        width: 90%;
+        flex-direction: column;
+        margin-top: -150px;
+        margin-left: -180px;
+    }
+
+    .center h2 {
+        width: 90%;
+        font-size: 50px;
+    }
+}
+
+@media(min-width:300px) and (max-width:768px) {
+    .container1 {
+        width: 90%;
+    }
+
+    #all-box {
+        width: 90%;
+        flex-direction: column;
+        bottom: -500px;
+        left: 30px;
+    }
+    .box2 {
+        padding: 10px;
+    }
+}
+
+@media(max-width:1200px) and (min-width:768px) {
+    .container {
+        width: 90%;
+    }
+    
+    #all {
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        margin-top: -10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .center {
+        width: 90%;
+        margin-top: -150px;
+        margin-left: -130px;
+    }
+
+    .center h2 {
+        width: 90%;
+    }
+}
+@media(max-width:1519px) and (min-width:769px) {
+    .container1 {
+        width: 90%;
+    }
+    #all-box {
+        width: 90%;
+        flex-direction: column;
+        bottom: -500px;
+        left: 40px;
+    }
+    .box2 {
+        padding: 10px;
+    }
+
+}
+@media(max-width:1600px) and (min-width:1519px) {
+    .container1 {
+        width: 90%;
+    }
+    #all-box {
+        bottom: -100px;
+    }
+}
+@media(max-width:1600px) and (min-width:1200px) {
+    .container {
+        width: 90%;
+    }
+    .logo h1 {
+        margin-top: -10px;
+    }
+    .center {
+        width: 90%;
+        margin-top: -50px;
+        margin-left: -150px;
+    }
+}
